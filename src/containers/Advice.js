@@ -23,14 +23,14 @@ const Advice = () => {
 
   return (
     <div>
-      <div className="m-auto p-[45px] flex flex-col justify-between items-center bg-dark-graylish rounded-lg w-[539px] h-[331.5px] relative">
+      <div className="m-auto p-11 flex flex-col justify-between items-center bg-dark-graylish rounded-lg w-80 h-auto relative sm:w-[539px]">
         <h1 className="text-neon-green uppercase">Advice #{id}</h1>
 
-        <div className="text-light-cyan text-[28px] text-center">
-          "{advice}"
+        <div className="text-light-cyan text-[28px] text-center my-9">
+          “{advice}”
         </div>
-      
-        <div className='mb-9'>
+
+        <div className="mb-9">
           <div className="bg-dark-graylish h-[1px]"></div>
           <img src={divider} alt="" />
           <div className="bg-dark-graylish h-[1px]"></div>
